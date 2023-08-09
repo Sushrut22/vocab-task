@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+/* Footer Styling */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Copyright Styling */
+.copyright {
+  font-size: 14px;
+}
+
+/* Link Styling */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

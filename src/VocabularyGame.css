@@ -1,0 +1,48 @@
+/* VocabularyGame.css */
+.game-container {
+    background-color: purple;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    color: white;
+}
+
+.tiles,
+.jumbled-tiles {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tile {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btile {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.score {
+    margin-top: 20px;
+}
+
+.meaning {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+}
